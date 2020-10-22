@@ -1,0 +1,2 @@
+function module(n,e,t){var a,l,o;t.link("react",{default:function(n){a=n}},0),t.link("../../../../client/contexts/TranslationContext",{useTranslation:function(n){l=n}},1),t.link("../../../../client/components/basic/UserInfo",{default:function(n){o=n}},2);var i=function(n){var e=n.data,t=(e=void 0===e?{}:e).livechat,i=(t=void 0===t?{}:t).maxNumberSimultaneousChat,u=void 0===i?"":i,r=l();return a.createElement(a.Fragment,null,a.createElement(o.Label,null,r("Max_number_of_chats_per_agent")),a.createElement(o.Info,null,u))};t.exportDefault(i)}
+

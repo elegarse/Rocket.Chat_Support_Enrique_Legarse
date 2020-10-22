@@ -1,0 +1,2 @@
+function module(e,t,a){let l,n,r,u;function c(e){let{url:t,username:a,etag:c}=e,i=n(e,["url","username","etag"]);const o=t||"/avatar/".concat(a).concat(c?"?etag=".concat(c):"");return(r.createElement(u,l({url:o,title:a},i)))}a.link("@babel/runtime/helpers/extends",{default(e){l=e}},0),a.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){n=e}},1),a.link("react",{default(e){r=e}},0),a.link("./BaseAvatar",{default(e){u=e}},1),a.exportDefault(c)}
+

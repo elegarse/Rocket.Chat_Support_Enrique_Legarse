@@ -1,0 +1,51 @@
+name: rocketchat-server
+version: 3.6.2
+summary: Rocket.Chat server
+description: Have your own Slack like online chat, built with Meteor. https://rocket.chat/
+architectures:
+- amd64
+confinement: strict
+grade: stable
+assumes:
+- snapd2.21
+hooks:
+  configure:
+    plugs:
+    - network
+  pre-refresh:
+    plugs:
+    - network
+apps:
+  backupdb:
+    command: command-backupdb.wrapper
+    plugs:
+    - network
+  initcaddy:
+    command: command-initcaddy.wrapper
+  mongo:
+    command: command-mongo.wrapper
+    plugs:
+    - network
+  restoredb:
+    command: command-restoredb.wrapper
+    plugs:
+    - network
+  rocketchat-caddy:
+    command: command-rocketchat-caddy.wrapper
+    daemon: simple
+    plugs:
+    - network
+    - network-bind
+  rocketchat-mongo:
+    command: command-rocketchat-mongo.wrapper
+    daemon: simple
+    plugs:
+    - network
+    - network-bind
+  rocketchat-server:
+    command: command-rocketchat-server.wrapper
+    daemon: simple
+    plugs:
+    - network
+    - network-bind
+    - removable-media

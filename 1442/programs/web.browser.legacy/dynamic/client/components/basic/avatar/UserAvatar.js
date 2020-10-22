@@ -1,0 +1,2 @@
+function module(e,t,n){var a,u,r,l;function i(e){var t=e.url,n=e.username,i=e.etag,f=u(e,["url","username","etag"]),o=t||"/avatar/"+n+(i?"?etag="+i:"");return r.createElement(l,a({url:o,title:n},f))}n.link("@babel/runtime/helpers/extends",{default:function(e){a=e}},0),n.link("@babel/runtime/helpers/objectWithoutProperties",{default:function(e){u=e}},1),n.link("react",{default:function(e){r=e}},0),n.link("./BaseAvatar",{default:function(e){l=e}},1),n.exportDefault(i)}
+

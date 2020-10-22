@@ -1,0 +1,2 @@
+function module(e,t,r){let n,u,s;r.export({useReactiveValue:()=>o}),r.link("meteor/tracker",{Tracker(e){n=e}},0),r.link("react",{useMemo(e){u=e}},1),r.link("use-subscription",{useSubscription(e){s=e}},2);const o=e=>{const t=u(()=>{const t=new Set;let r;const u=n.autorun(()=>{r=e(),t.forEach(e=>{e()})});return{getCurrentValue:()=>r,subscribe:e=>(t.add(e),()=>{t.delete(e),0===t.size&&u.stop()})}},[e]);return s(t)}}
+

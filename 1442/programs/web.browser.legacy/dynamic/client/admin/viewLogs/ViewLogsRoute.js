@@ -1,0 +1,2 @@
+function module(n,t,e){var o,u,i,l;function r(){var n;return i("view-logs")?o.createElement(l,null):o.createElement(u,null)}e.export({default:function(){return r}}),e.link("react",{default:function(n){o=n}},0),e.link("../../components/NotAuthorizedPage",{default:function(n){u=n}},1),e.link("../../contexts/AuthorizationContext",{usePermission:function(n){i=n}},2),e.link("./ViewLogs",{default:function(n){l=n}},3)}
+

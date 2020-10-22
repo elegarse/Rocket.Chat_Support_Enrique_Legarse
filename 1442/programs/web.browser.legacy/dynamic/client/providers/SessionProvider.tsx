@@ -1,0 +1,2 @@
+function module(e,n,t){var i,o,c,r;t.link("react",{default:function(e){i=e}},0),t.link("meteor/session",{Session:function(e){o=e}},1),t.link("../contexts/SessionContext",{SessionContext:function(e){c=e}},2),t.link("./createReactiveSubscriptionFactory",{createReactiveSubscriptionFactory:function(e){r=e}},3);var u={query:r((function(e){return o.get(e)})),dispatch:function(e,n){o.set(e,n)}},a=function(e){var n=e.children;return(i.createElement(c.Provider,{children:n,value:u}))};t.exportDefault(a)}
+

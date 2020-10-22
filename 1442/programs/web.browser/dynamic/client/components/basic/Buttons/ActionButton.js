@@ -1,0 +1,2 @@
+function module(e,t,n){let l,o,r,i,a;n.link("@babel/runtime/helpers/extends",{default(e){l=e}},0),n.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){o=e}},1),n.export({ActionButton:()=>u}),n.link("react",{default(e){r=e}},0),n.link("@rocket.chat/fuselage",{Button(e){i=e},Icon(e){a=e}},1);const u=e=>{let{icon:t}=e,n=o(e,["icon"]);return(r.createElement(i,l({},n,{square:!0,ghost:!0,small:!0,flexShrink:0}),r.createElement(a,{name:t,size:"x20"})))}}
+

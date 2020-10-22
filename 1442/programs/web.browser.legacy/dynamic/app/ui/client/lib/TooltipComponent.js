@@ -1,0 +1,2 @@
+function module(n,t,e){var i,o,l,c,r;e.export({TooltipComponent:function(){return a}}),e.link("react",{default:function(n){i=n},useRef:function(n){o=n}},0),e.link("@rocket.chat/fuselage",{Tooltip:function(n){l=n},PositionAnimated:function(n){c=n},AnimatedVisibility:function(n){r=n}},1);var a=function(n){var t=n.title,e=n.anchor,a=o(e);return i.createElement(c,{anchor:a,placement:"top-middle",margin:8,visible:r.UNHIDING,children:t},i.createElement(l,null,t))};e.exportDefault(a)}
+

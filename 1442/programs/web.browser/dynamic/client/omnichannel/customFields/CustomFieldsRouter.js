@@ -1,0 +1,2 @@
+function module(e,t,l){let n,u,a,o,i;l.link("react",{default(e){n=e}},0),l.link("../../contexts/RouterContext",{useRouteParameter(e){u=e}},1),l.link("./CustomFieldsPage",{default(e){a=e}},2),l.link("./NewCustomFieldsPage",{default(e){o=e}},3),l.link("./EditCustomFieldsPage",{default(e){i=e}},4);const d=()=>{const e=u("context");return e?"new"===e?n.createElement(o,null):"edit"===e?n.createElement(i,null):void 0:n.createElement(a,null)};l.exportDefault(d)}
+

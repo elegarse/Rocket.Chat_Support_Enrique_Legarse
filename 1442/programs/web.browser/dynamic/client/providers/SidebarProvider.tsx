@@ -1,0 +1,2 @@
+function module(e,t,n){let i,l,o,r;n.export({SidebarProvider:()=>c}),n.link("react",{default(e){i=e}},0),n.link("../../app/ui-utils/client",{menu(e){l=e}},1),n.link("../contexts/SidebarContext",{SidebarContext(e){o=e}},2),n.link("../hooks/useReactiveValue",{useReactiveValue(e){r=e}},3);const u=()=>l.isOpen(),a=e=>("function"==typeof e&&(e=e(l.isOpen())),e?l.open():l.close()),c=e=>{let{children:t}=e;return(i.createElement(o.Provider,{children:t,value:[r(u),a]}))}}
+

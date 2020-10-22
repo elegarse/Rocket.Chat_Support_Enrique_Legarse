@@ -1,0 +1,2 @@
+function module(e,t,n){let u,l,o,r;n.export({useTimezoneTime:()=>i}),n.link("react",{useState(e){u=e},useEffect(e){l=e}},0),n.link("moment",{default(e){o=e}},1),n.link("./useFormatTime",{useFormatTime(e){r=e}},2);const i=function(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:1e3;const[n,i]=u(null),s=r();return l(()=>{if(void 0===e)return;const n=()=>i(o().utcOffset(e)),u=setInterval(n,t);return n(),()=>clearInterval(u)},[e,t]),s(n)}}
+

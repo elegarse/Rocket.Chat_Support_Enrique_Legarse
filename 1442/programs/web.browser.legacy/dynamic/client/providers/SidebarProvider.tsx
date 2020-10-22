@@ -1,0 +1,2 @@
+function module(n,e,t){var i,u,r,o;t.export({SidebarProvider:function(){return l}}),t.link("react",{default:function(n){i=n}},0),t.link("../../app/ui-utils/client",{menu:function(n){u=n}},1),t.link("../contexts/SidebarContext",{SidebarContext:function(n){r=n}},2),t.link("../hooks/useReactiveValue",{useReactiveValue:function(n){o=n}},3);var c=function(){return u.isOpen()},a=function(n){return"function"==typeof n&&(n=n(u.isOpen())),n?u.open():u.close()},l=function(n){var e=n.children;return(i.createElement(r.Provider,{children:e,value:[o(c),a]}))}}
+

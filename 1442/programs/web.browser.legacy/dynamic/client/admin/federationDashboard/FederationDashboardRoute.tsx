@@ -1,0 +1,2 @@
+function module(n,t,e){var o,a,u,l;e.link("react",{default:function(n){o=n}},0),e.link("../../contexts/AuthorizationContext",{useRole:function(n){a=n}},1),e.link("../../components/NotAuthorizedPage",{default:function(n){u=n}},2),e.link("./FederationDashboardPage",{default:function(n){l=n}},3);var i=function(){var n;return a("admin")?o.createElement(l,null):o.createElement(u,null)};e.exportDefault(i)}
+

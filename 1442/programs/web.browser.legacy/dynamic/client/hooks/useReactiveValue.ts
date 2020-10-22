@@ -1,0 +1,2 @@
+function module(n,e,t){var u,r,i;t.export({useReactiveValue:function(){return o}}),t.link("meteor/tracker",{Tracker:function(n){u=n}},0),t.link("react",{useMemo:function(n){r=n}},1),t.link("use-subscription",{useSubscription:function(n){i=n}},2);var o=function(n){var e=r((function(){var e=new Set,t,r=u.autorun((function(){t=n(),e.forEach((function(n){n()}))}));return{getCurrentValue:function(){return t},subscribe:function(n){return e.add(n),function(){e.delete(n),0===e.size&&r.stop()}}}}),[n]);return i(e)}}
+

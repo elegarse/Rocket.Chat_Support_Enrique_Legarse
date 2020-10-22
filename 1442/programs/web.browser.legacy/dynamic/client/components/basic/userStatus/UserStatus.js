@@ -1,0 +1,2 @@
+function module(e,t,n){var u,l,o,r,a;n.link("@babel/runtime/helpers/extends",{default:function(e){u=e}},0),n.link("@babel/runtime/helpers/objectWithoutProperties",{default:function(e){l=e}},1),n.link("react",{default:function(e){o=e}},0),n.link("@rocket.chat/fuselage",{Box:function(e){r=e}},1),n.link("../../../helpers/statusColors",{default:function(e){a=e}},2);var i=o.memo((function(e){var t=e.status,n=l(e,["status"]);return(o.createElement(r,u({size:"x12",borderRadius:"full",backgroundColor:a[t]},n)))}));n.exportDefault(i)}
+

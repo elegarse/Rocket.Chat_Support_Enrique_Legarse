@@ -1,0 +1,2 @@
+function module(e,t,n){let o,c,r,l,i;n.link("@babel/runtime/helpers/objectSpread2",{default(e){o=e}},0),n.export({ConnectionStatusProvider:()=>a}),n.link("meteor/meteor",{Meteor(e){c=e}},0),n.link("react",{default(e){r=e}},1),n.link("../contexts/ConnectionStatusContext",{ConnectionStatusContext(e){l=e}},2),n.link("../hooks/useReactiveValue",{useReactiveValue(e){i=e}},3);const u=()=>o({},c.status(),{reconnect:c.reconnect});function a(e){let{children:t}=e;const n=i(u);return(r.createElement(l.Provider,{children:t,value:n}))}}
+

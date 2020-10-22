@@ -1,0 +1,2 @@
+function module(e,t,n){var l,u,i,o,a;n.link("react",{default:function(e){l=e}},0),n.link("../../contexts/RouterContext",{useRouteParameter:function(e){u=e}},1),n.link("./CustomFieldsPage",{default:function(e){i=e}},2),n.link("./NewCustomFieldsPage",{default:function(e){o=e}},3),n.link("./EditCustomFieldsPage",{default:function(e){a=e}},4);var c=function(){var e=u("context");return e?"new"===e?l.createElement(o,null):"edit"===e?l.createElement(a,null):void 0:l.createElement(i,null)};n.exportDefault(c)}
+

@@ -1,0 +1,2 @@
+function module(e,t,l){let r,u,a,o,s;l.link("@babel/runtime/helpers/extends",{default(e){r=e}},0),l.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){u=e}},1),l.link("react",{default(e){a=e}},0),l.link("@rocket.chat/fuselage",{Box(e){o=e}},1),l.link("../../../helpers/statusColors",{default(e){s=e}},2);const n=a.memo(e=>{let{status:t}=e,l=u(e,["status"]);return(a.createElement(o,r({size:"x12",borderRadius:"full",backgroundColor:s[t]},l)))});l.exportDefault(n)}
+

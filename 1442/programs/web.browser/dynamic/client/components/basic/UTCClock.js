@@ -1,0 +1,2 @@
+function module(e,t,n){let o,c,i;n.export({UTCClock:()=>m,LocalTime:()=>s}),n.link("react",{default(e){o=e}},0),n.link("../../hooks/useTimezoneTime",{useTimezoneTime(e){c=e}},1),n.link("../../contexts/TranslationContext",{useTranslation(e){i=e}},2);const l=e=>{const t=c(e,1e4);return"".concat(t," (UTC ").concat(e,")")},m=o.memo(e=>{let{utcOffset:t}=e;return l(t)}),s=o.memo(e=>{let{utcOffset:t}=e;const n=i(),o=l(t);return n("Local_Time_time",{time:o})})}
+

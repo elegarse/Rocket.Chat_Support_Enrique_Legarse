@@ -1,0 +1,2 @@
+function module(n,e,t){var i,u,c,r;t.link("@babel/runtime/helpers/slicedToArray",{default:function(n){i=n}},0),t.export({useHasLicense:function(){return f}}),t.link("react",{useState:function(n){u=n},useEffect:function(n){c=n}},0),t.link("../../app/license/client",{hasLicense:function(n){r=n}},1);var f=function(n){var e=u("loading"),t=i(e,2),f=t[0],o=t[1];return c((function(){r(n).then((function(n){if(n)return o(!0);o(!1)}))}),[n]),f}}
+

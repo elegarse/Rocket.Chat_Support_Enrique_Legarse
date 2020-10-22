@@ -1,0 +1,2 @@
+function module(n,r,t){var e;t.export({createReactiveSubscriptionFactory:function(){return u}}),t.link("meteor/tracker",{Tracker:function(n){e=n}},0);var u=function(n){return function(){for(var r=arguments.length,t=new Array(r),u=0;u<r;u++)t[u]=arguments[u];var o=function(){return n.apply(void 0,t)},c=new Set,i,a=e.autorun((function(){i=o(),c.forEach((function(n){n()}))}));return{getCurrentValue:function(){return i},subscribe:function(n){return c.add(n),function(){c.delete(n),0===c.size&&a.stop()}}}}}}
+

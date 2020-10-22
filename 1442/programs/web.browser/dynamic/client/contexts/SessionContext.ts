@@ -1,0 +1,2 @@
+function module(e,s,t){let n,o,u,i,r;t.export({SessionContext:()=>c,useSession:()=>a,useSessionDispatch:()=>l}),t.link("react",{createContext(e){n=e},useCallback(e){o=e},useContext(e){u=e},useMemo(e){i=e}},0),t.link("use-subscription",{useSubscription(e){r=e}},1);const c=n({query:()=>({getCurrentValue:()=>void 0,subscribe:()=>()=>void 0}),dispatch:()=>void 0}),a=e=>{const{query:s}=u(c),t=i(()=>s(e),[s,e]);return r(t)},l=e=>{const{dispatch:s}=u(c);return o(t=>s(e,t),[s,e])}}
+
